@@ -3,3 +3,43 @@
     margin: 0;
     padding: 0;
 }
+
+.carousel {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    margin: 30px auto;
+    border: 1px solid black;
+}
+
+.carousel-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-bullets {
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.carousel-wrapper {
+
+    height: 100vh;
+    display: flex;
+}
+
+.fa-chevron-right, .fa-chevron-left {
+    font-size: 30px;
+    margin: 10px;
+}
