@@ -21,6 +21,7 @@
                     <div class="carousel-images">
                         <img :src="images[imageIndex]">
                         <div class="carousel-bullets">
+                            <!-- <i class="fas fa-circle" v-for="(image, index) in images" :class="imageIndex == index ? 'active' : '' " ></i> -->
                             <i class="fas fa-circle" v-for="(image, index) in images" :class="isBulletActive(index)" ></i>
                         </div>
                     </div>

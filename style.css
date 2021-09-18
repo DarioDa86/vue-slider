@@ -17,7 +17,10 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; 
+}
+
+.carousel-images img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -26,20 +29,27 @@
 
 .carousel-bullets {
     position: absolute;
-    text-align: center;
     background-color: rgba(255, 255, 255, 0.616);
-    padding: 10px;
+    padding: 11px 10px 10px 10px ;
     border-radius: 20px;
     margin-bottom: 10px;
 }
 
 .carousel-wrapper {
-
-    height: 100vh;
     display: flex;
+    height: 100vh;
 }
 
 .fa-chevron-right, .fa-chevron-left {
     font-size: 30px;
     margin: 10px;
+}
+
+.fa-circle.active {
+    color: white;
+}
+
+.fa-circle {
+    color: gray;
+    margin: 0 2px;
 }
